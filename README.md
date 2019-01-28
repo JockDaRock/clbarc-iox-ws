@@ -1,9 +1,9 @@
-# Building and Deploying Edge Application w/ IOx
+# Building and Deploying Edge Application w/ IOx and Fog Director APIs.
 
 ## Building our edge application
 
 ### First we need to download the main source code for our app with our terminal.
-* Open the iTerm app
+* Open the iTerm or basic Mac terminal app
 * Create a new directory and move in to that directory by typing in the following commands.
 ```bash
 $ mkdir iox1

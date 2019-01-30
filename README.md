@@ -83,7 +83,7 @@ $ ioxclient profiles create
 * Now that we have created our IOx profile, let's use ioxclient to finish building our application.
 
 ```bash
-$ ioxclient docker package ioxwebapp:latest .
+$ ioxclient docker package --use-targz ioxwebapp:latest .
 ```
 
 ### Deploying apps using ioxclient

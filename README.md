@@ -91,7 +91,7 @@ $ ioxclient docker package --use-targz ioxwebapp:latest .
 * Once we have built our application we can use the ioxclient to deploy our application.
 
 ```bash
-$ ioxclient app install ioxwebapp package.tar
+$ ioxclient app install ioxwebapp package.tar.gz
 ```
 
 * Once the application is deployed we need to activate our application.  While being deactivated, the application can still be updated or removed.  Activation helps us manage life cycles of the app.
